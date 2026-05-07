@@ -47,7 +47,7 @@ export default function Htmlcsscour({ isOpen, onClose, setProgress }) {
           {/* Bouton terminer */}
           <button
             onClick={() => setProgress(prev => ({ ...prev, htmlcss: true }))}
-            className="border border-[#db3232cc] text-[#db3232cc] dark:border-red-400 dark:text-red-400 text-[9px] lg:text-[11px] fixed right-40 lg:right-60 top-12 lg:top-20 rounded-full p-0.5 md:px-2 lg:py-1 hover:bg-red-50 dark:hover:bg-red-900/30 transition"
+            className="border border-[#db3232cc] text-[#db3232cc] dark:border-red-400 dark:text-red-400 text-[9px] lg:text-[11px] fixed right-40 lg:right-60 top-24 lg:top-20 rounded-full p-0.5 md:px-2 lg:py-1 hover:bg-red-50 dark:hover:bg-red-900/30 transition"
           >
             Terminer le module
           </button>
