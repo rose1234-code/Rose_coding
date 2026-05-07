@@ -30,10 +30,10 @@ export default function Htmlcsscour({ isOpen, onClose, setProgress }) {
             <div
               key={index}
               onClick={() => setCurrentLesson(index)}
-              className={`p-2 rounded-lg text-sm cursor-pointer mb-2 transition-colors duration-200
+              className={`p-2 rounded-lg text-sm cursor-pointer  mb-2 transition-colors duration-200 
                 ${currentLesson === index
-                  ? 'bg-gray-900 dark:bg-indigo-600 text-white'
-                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+                  ? 'bg-gray-900 dark:bg-indigo-600 text-white line-clamp-1'
+                  : 'text-gray-700 dark:text-gray-300 hover:bg-gray-200 line-clamp-1 dark:hover:bg-gray-700'
                 }`}
             >
               {lesson.title}
@@ -47,7 +47,7 @@ export default function Htmlcsscour({ isOpen, onClose, setProgress }) {
           {/* Bouton terminer */}
           <button
             onClick={() => setProgress(prev => ({ ...prev, htmlcss: true }))}
-            className="border border-[#db3232cc] text-[#db3232cc] dark:border-red-400 dark:text-red-400 text-[9px] lg:text-[11px] fixed right-60 top-20 rounded-full px-2 py-1 hover:bg-red-50 dark:hover:bg-red-900/30 transition"
+            className="border border-[#db3232cc] text-[#db3232cc] dark:border-red-400 dark:text-red-400 text-[9px] lg:text-[11px] fixed right-40 lg:right-60 top-16 lg:top-20 rounded-full px-2 py-1 hover:bg-red-50 dark:hover:bg-red-900/30 transition"
           >
             Terminer le module
           </button>
