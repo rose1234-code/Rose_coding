@@ -12,7 +12,7 @@ export default function Footer() {
                 </div>
             </div>
             <div>
-                <ul className='flex items-center gap-4 text-gray-400 text-[10px]'>
+                <ul className='grid lg:grid-cols-1 grid-cols-1 items-center gap-4 text-gray-400 text-[10px]'>
                     <li>Privacy Policy</li>
                     <li>Terms of services</li>
                     <li>Security </li>
