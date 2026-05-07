@@ -27,5 +27,5 @@ const lessonProgressSchema = new Schema({
     }
 },{timestamps:true});
 
-const LessonProgression=mongoose.models.LessonProgress || mongoose.model('Progession',lessonProgressSchema)
+const LessonProgression=mongoose.models.Progression || mongoose.model('Progression',lessonProgressSchema)
 export default LessonProgression
