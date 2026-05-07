@@ -24,7 +24,7 @@ export default function Htmlcsscour({ isOpen, onClose, setProgress }) {
       <div className="relative bg-white dark:bg-gray-900 w-[90%] md:w-[70%] h-[80%] rounded-2xl shadow-xl flex overflow-hidden border dark:border-gray-700 transition-colors duration-300">
 
         {/* Sidebar */}
-        <aside className="w-1/3 bg-gray-100 dark:bg-gray-800 p-4 overflow-y-auto border-r dark:border-gray-700">
+        <aside className="w-1/3 bg-gray-100 dark:bg-gray-800 p-1 lg:p-4 overflow-y-auto border-r dark:border-gray-700">
           <h2 className="font-bold mb-4 text-gray-900 dark:text-white">Leçons</h2>
           {lessons.map((lesson, index) => (
             <div
